@@ -11,14 +11,7 @@ body {
 }
 
 header {
-    display: flex;
-    align-items: center;
     margin-bottom: 40px;
-}
-
-header img {
-    height: 36px;
-    margin-right: 16px;
 }
 
 header h1 {
@@ -34,7 +27,7 @@ header h1 {
 
 form {
     display: flex;
-    max-width: 640px;
+    max-width: 840px;
     width: 100%;
     justify-content: space-between;
     margin-bottom: 56px;
@@ -46,6 +39,8 @@ form input {
     border: none;
     border-bottom: 2px solid #000;
     padding: 8px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px black;
 }
 
 form button {
@@ -56,6 +51,8 @@ form button {
     border: none;
     cursor: pointer;
     padding: 8px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px black;
 }
 
 table {
@@ -75,31 +72,4 @@ table td {
     text-align: center;
     font-size: 18px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-table td img {
-    height: 30px;
-}
-
-.resultado {
-    padding: 8px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #fff;
-    border-right: 3px;
-}
-
-.aprovado {
-    background-color: #009432;
-    border-radius: 3px;
-    padding: 8px;
-    font-weight: bold;
-}
-
-.reprovado {
-    background-color: #f00;
-    color: #000;
-    border-radius: 3px;
-    padding: 8px;
-    font-weight: bold;
 }
